@@ -29,6 +29,6 @@
 
 <style>
 	body {
-		background-color: #f7f8f9;
+		background-color: #dfebf7;
 	}
 </style>
