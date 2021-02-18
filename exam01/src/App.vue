@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-xs-offset-2 col-xs-8">
 				<div class="page-header">
-					<h2>Router Demo - 01</h2>
+					<h2>Router Examination 01</h2>
 				</div>
 			</div>
 		</div>
