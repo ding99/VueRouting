@@ -1,11 +1,11 @@
 {
-	"name": "vuerortedemo",
+	"name": "vuerouting",
 	"description": "A Vue.js examination project",
-	"author": "teacher",
+	"author": "Wei Ding <ding_web@yahoo.co.jp>",
 	"private": true,
 	"scripts": {
-		"exam01-dev": "webpack-dev-server --inline --hot --config exam01/webpack.config.js --content-base exam01 --history-api-fallback",
-		"exam01-build": "cross-env NODE_ENV=production webpack --config exam01/webpack.config.js --progress --hide-modules"
+		"dev01": "webpack-dev-server --inline --hot --config exam01/webpack.config.js --content-base exam01 --history-api-fallback",
+		"build01": "cross-env NODE_ENV=production webpack --config exam01/webpack.config.js --progress --hide-modules"
 	},
 	"dependencies": {
 		"babel-runtime": "^6.0.0",
