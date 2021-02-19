@@ -13,6 +13,7 @@
 					<!-- navigated by v-link -->
 					<a class="list-group-item" v-link="{ path: '/home'}">Home</a>
 					<a class="list-group-item" v-link="{ path: '/about'}">About</a>
+					<a class="list-group-item" v-link="{ path: '/vhtml'}">V-html</a>
 				</div>
 			</div>
 			<div class="col-xs-6">
