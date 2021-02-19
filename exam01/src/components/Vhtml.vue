@@ -10,7 +10,7 @@
 	export default{
 		data: function() {
 			return {
-				message: '<h3>Hello, v-html directive!</h3>'
+				message: '<h4>Hello, v-html directive!</h4>'
 			}
 		}
 	}
