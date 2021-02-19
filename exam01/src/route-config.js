@@ -4,6 +4,8 @@ import Vhtml from './components/Vhtml.vue'
 import Vbind from './components/Vbind.vue'
 import Vmodel from './components/Vmodel.vue'
 import Von from './components/Von.vue'
+import Filter from './components/Filter.vue'
+import Compute from './components/Compute.vue'
 
 export default {
 	'home': { component: Home },
@@ -11,5 +13,7 @@ export default {
 	'vhtml': { component: Vhtml },
 	'vbind': { component: Vbind },
 	'vmodel': { component: Vmodel },
-	'von': { component: Von }
+	'von': { component: Von },
+	'filter': { component: Filter },
+	'compute': { component: Compute }
 }
