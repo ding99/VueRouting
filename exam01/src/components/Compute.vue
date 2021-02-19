@@ -1,6 +1,7 @@
 <template>
 	<div>
-		<h2>v-on</h2>
+		<h2>Compute</h2>
+		<p>[reverse the string]</p>
 		<p>Original: {{ message }}</p>
 		<p>Reversed: {{ messageMsg }}</p>
         <input v-model = "message">
