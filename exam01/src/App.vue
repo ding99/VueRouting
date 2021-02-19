@@ -15,6 +15,7 @@
 					<a class="list-group-item" v-link="{ path: '/about'}">About</a>
 					<a class="list-group-item" v-link="{ path: '/vhtml'}">V-html</a>
 					<a class="list-group-item" v-link="{ path: '/vbind'}">V-bind</a>
+					<a class="list-group-item" v-link="{ path: '/vmodel'}">V-model</a>
 				</div>
 			</div>
 			<div class="col-xs-6">
