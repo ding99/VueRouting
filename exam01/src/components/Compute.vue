@@ -3,6 +3,7 @@
 		<h2>v-on</h2>
 		<p>Original: {{ message }}</p>
 		<p>Reversed: {{ messageMsg }}</p>
+        <input v-model = "message">
 	</div>
 </template>
 
