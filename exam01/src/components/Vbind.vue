@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h2>V-bind</h2>
+		<h2>v-bind</h2>
 		<label for = "r1">change color 1</label>
 		<input type = "checkbox" v-model = "use1" id = "r1">
 		<br>
