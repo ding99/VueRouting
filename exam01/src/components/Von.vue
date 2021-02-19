@@ -8,9 +8,15 @@
 
 <script>
 	export default{
-        data: {message: 'Try'},
-		methods: { reverseMsg: function() {
-			this.message = this.message.split('').reverse().join('')
-        } }
+		data: function() {
+			return {
+				message: 'Beginning'
+			}
+		},
+		methods: {
+            reverseMsg: function() {
+			    this.message = this.message.split('').reverse().join('')
+            }
+        }
     }
 </script>
