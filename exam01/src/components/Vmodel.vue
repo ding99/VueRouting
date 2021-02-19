@@ -8,6 +8,10 @@
 
 <script>
 	export default{
-	    data:{message:'Beginning'}
-	}
+		data: function() {
+			return {
+				message: 'Beginning'
+			}
+		}
+    }
 </script>
