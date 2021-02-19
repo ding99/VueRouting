@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<h2>Home</h2>
-		<p>{{ msg }}</p>
+		<p>{{ message }}</p>
 	</div>
 </template>
 
@@ -9,7 +9,7 @@
 	export default {
 		data: function() {
 			return {
-				msg: 'Hello, vue router!'
+				message: 'Hello, vue router!'
 			}
 		}
 	}
