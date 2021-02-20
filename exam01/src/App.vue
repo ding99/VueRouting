@@ -3,6 +3,7 @@
 		<div class="row">
 			<div class="col-xs-offset-2 col-xs-8">
 				<div class="page-header">
+					<img src = "./assets/logo.png">
 					<h1>Basic Syntax</h1>
 				</div>
 			</div>
