@@ -2,20 +2,18 @@
 	<div>
 		<h2>Watch</h2>
 		<p>[Conversion between meters and kilometers]</p>
-		Kilometer: <input type = "text" v-model = "kilometers">
-		Reversed: <input type = "text" v-model = "meters">
+		Kilometers: <input type = "text" v-model = "kilometers">
+		Meters: <input type = "text" v-model = "meters">
 	</div>
 </template>
 <script>
 	export default{
-		data: {
-            kilometers: 0,
-            meters: 0
+		data: function() {
+            return {
+                kilometers: 0,
+                meters: 0
+            }
 		},
-        methods: {
-        },
-        computed:{
-        },
 		watch: {
             kilometers: function(val){
                 this.kilometers = val;
