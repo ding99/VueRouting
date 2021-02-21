@@ -6,6 +6,7 @@ import Vmodel from './components/Vmodel.vue'
 import Von from './components/Von.vue'
 import Filter from './components/Filter.vue'
 import Compute from './components/Compute.vue'
+import Watch from './components/Watch.vue'
 
 export default {
 	'home': { component: Home },
@@ -15,5 +16,6 @@ export default {
 	'vmodel': { component: Vmodel },
 	'von': { component: Von },
 	'filter': { component: Filter },
-	'compute': { component: Compute }
+	'compute': { component: Compute },
+	'watch': { component: Watch }
 }
